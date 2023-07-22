@@ -1,0 +1,355 @@
+CRITICAL - 2023-07-07 06:58:03 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH\Controllers\Home.php(10): view('index')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\new.digital.myskul.in\\public\\index.php')
+CRITICAL - 2023-07-07 10:51:17 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-07-07 10:51:38 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-07-07 10:54:41 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 194.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-07-07 18:03:47 --> Call to undefined function form_open()
+in APPPATH\Views\Login\index.php on line 30.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Login/index', [], true)
+ 4 APPPATH\Controllers\Login.php(11): view('Login/index')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\new.digital.myskul.in\\public\\index.php')
+INFO - 2023-07-07 18:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 18:21:22 --> Trying to access array offset on value of type null
+in APPPATH\Views\Login\index.php on line 24.
+ 1 APPPATH\Views\Login\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Login\\index.php', 24, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Login\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Login/index', [], true)
+ 5 APPPATH\Controllers\Login.php(11): view('Login/index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\new.digital.myskul.in\\public\\index.php')
+INFO - 2023-07-07 18:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 18:21:42 --> Trying to access array offset on value of type null
+in APPPATH\Views\Login\index.php on line 24.
+ 1 APPPATH\Views\Login\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Login\\index.php', 24, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Login\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Login/index', [], true)
+ 5 APPPATH\Controllers\Login.php(11): view('Login/index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\new.digital.myskul.in\\public\\index.php')
+INFO - 2023-07-07 18:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 18:21:45 --> Trying to access array offset on value of type null
+in APPPATH\Views\Login\index.php on line 24.
+ 1 APPPATH\Views\Login\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Login\\index.php', 24, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Login\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Login/index', [], true)
+ 5 APPPATH\Controllers\Login.php(11): view('Login/index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\new.digital.myskul.in\\public\\index.php')
+INFO - 2023-07-07 18:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 18:21:47 --> Trying to access array offset on value of type null
+in APPPATH\Views\Login\index.php on line 24.
+ 1 APPPATH\Views\Login\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Login\\index.php', 24, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Login\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Login/index', [], true)
+ 5 APPPATH\Controllers\Login.php(11): view('Login/index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\new.digital.myskul.in\\public\\index.php')
+INFO - 2023-07-07 18:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 18:21:47 --> Trying to access array offset on value of type null
+in APPPATH\Views\Login\index.php on line 24.
+ 1 APPPATH\Views\Login\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Login\\index.php', 24, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Login\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Login/index', [], true)
+ 5 APPPATH\Controllers\Login.php(11): view('Login/index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\new.digital.myskul.in\\public\\index.php')
+INFO - 2023-07-07 18:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 18:21:50 --> Trying to access array offset on value of type null
+in APPPATH\Views\Login\index.php on line 24.
+ 1 APPPATH\Views\Login\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Login\\index.php', 24, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Login\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Login/index', [], true)
+ 5 APPPATH\Controllers\Login.php(11): view('Login/index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\new.digital.myskul.in\\public\\index.php')
+INFO - 2023-07-07 18:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 18:21:53 --> Trying to access array offset on value of type null
+in APPPATH\Views\Login\index.php on line 24.
+ 1 APPPATH\Views\Login\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Login\\index.php', 24, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Login\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Login/index', [], true)
+ 5 APPPATH\Controllers\Login.php(11): view('Login/index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\new.digital.myskul.in\\public\\index.php')
+INFO - 2023-07-07 18:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:33:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:42:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 18:46:43 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Models\LoginModel.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Models\\LoginModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\LoginModel')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\LoginModel')
+ 4 APPPATH\Controllers\Login.php(32): spl_autoload_call('App\\Models\\LoginModel')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->check()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\new.digital.myskul.in\\public\\index.php')
+INFO - 2023-07-07 18:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 18:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:05:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 19:11:22 --> Undefined variable: session
+in APPPATH\Views\Dashboard\index.php on line 200.
+ 1 APPPATH\Views\Dashboard\index.php(200): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Dashboard\\index.php', 200, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(15): view('Dashboard/index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\new.digital.myskul.in\\public\\index.php')
+CRITICAL - 2023-07-07 19:14:35 --> Call to undefined function CodeIgniter\Router\dot_array_search()
+in SYSTEMPATH\Router\RouteCollection.php on line 1382.
+ 1 SYSTEMPATH\Router\RouteCollection.php(919): CodeIgniter\Router\RouteCollection->create('get', '/', '\\App\\Controllers\\Login::index', [])
+ 2 APPPATH\Config\Routes.php(32): CodeIgniter\Router\RouteCollection->get('/', 'Login::index')
+ 3 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\new.digital.myskul.in\\public\\index.php')
+CRITICAL - 2023-07-07 19:14:38 --> Call to undefined function CodeIgniter\Router\dot_array_search()
+in SYSTEMPATH\Router\RouteCollection.php on line 1382.
+ 1 SYSTEMPATH\Router\RouteCollection.php(919): CodeIgniter\Router\RouteCollection->create('get', '/', '\\App\\Controllers\\Login::index', [])
+ 2 APPPATH\Config\Routes.php(32): CodeIgniter\Router\RouteCollection->get('/', 'Login::index')
+ 3 SYSTEMPATH\Router\RouteCollection.php(267): require('C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Config\\Routes.php')
+ 4 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 5 SYSTEMPATH\CodeIgniter.php(447): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\new.digital.myskul.in\\public\\index.php')
+INFO - 2023-07-07 19:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 19:15:12 --> Undefined variable: session
+in APPPATH\Views\Dashboard\index.php on line 200.
+ 1 APPPATH\Views\Dashboard\index.php(200): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Dashboard\\index.php', 200, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(15): view('Dashboard/index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\new.digital.myskul.in\\public\\index.php')
+INFO - 2023-07-07 19:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 19:15:26 --> Undefined variable: session
+in APPPATH\Views\Dashboard\index.php on line 200.
+ 1 APPPATH\Views\Dashboard\index.php(200): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Dashboard\\index.php', 200, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(15): view('Dashboard/index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\new.digital.myskul.in\\public\\index.php')
+INFO - 2023-07-07 19:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 19:15:28 --> Undefined variable: session
+in APPPATH\Views\Dashboard\index.php on line 200.
+ 1 APPPATH\Views\Dashboard\index.php(200): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Dashboard\\index.php', 200, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(15): view('Dashboard/index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\new.digital.myskul.in\\public\\index.php')
+INFO - 2023-07-07 19:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 19:15:29 --> Undefined variable: session
+in APPPATH\Views\Dashboard\index.php on line 200.
+ 1 APPPATH\Views\Dashboard\index.php(200): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Dashboard\\index.php', 200, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(15): view('Dashboard/index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\new.digital.myskul.in\\public\\index.php')
+INFO - 2023-07-07 19:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 19:15:29 --> Undefined variable: session
+in APPPATH\Views\Dashboard\index.php on line 200.
+ 1 APPPATH\Views\Dashboard\index.php(200): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Dashboard\\index.php', 200, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(15): view('Dashboard/index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\new.digital.myskul.in\\public\\index.php')
+INFO - 2023-07-07 19:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 19:15:29 --> Undefined variable: session
+in APPPATH\Views\Dashboard\index.php on line 200.
+ 1 APPPATH\Views\Dashboard\index.php(200): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Dashboard\\index.php', 200, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(15): view('Dashboard/index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\new.digital.myskul.in\\public\\index.php')
+CRITICAL - 2023-07-07 19:20:36 --> Class 'App\Controllers\Session' not found
+in APPPATH\Controllers\BaseController.php on line 51.
+ 1 SYSTEMPATH\CodeIgniter.php(905): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(488): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\new.digital.myskul.in\\public\\index.php')
+INFO - 2023-07-07 19:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 19:22:36 --> Undefined variable: session
+in APPPATH\Views\Dashboard\index.php on line 200.
+ 1 APPPATH\Views\Dashboard\index.php(200): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Dashboard\\index.php', 200, [])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Views\\Dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(15): view('Dashboard/index')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\new.digital.myskul.in\\public\\index.php')
+INFO - 2023-07-07 19:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-07 19:26:41 --> Undefined variable: session
+in APPPATH\Controllers\Login.php on line 62.
+ 1 APPPATH\Controllers\Login.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'C:\\xampp\\htdocs\\new.digital.myskul.in\\app\\Controllers\\Login.php', 62, [])
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Login->logout()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\new.digital.myskul.in\\public\\index.php')
+INFO - 2023-07-07 19:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-07 19:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
